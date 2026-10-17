@@ -1,0 +1,26 @@
+LCI BUSINESS & BUILDING — PAKET FINAL GITHUB PAGES
+
+CARA UPLOAD BERSIH:
+1. Buka repository GitHub: Perizinanberusaha.
+2. Hapus isi website lama (jangan hapus repository).
+3. Extract ZIP ini di komputer.
+4. Upload SEMUA ISI folder hasil extract ke ROOT repository.
+5. Pastikan index.html berada langsung di root repository, BUKAN di dalam subfolder.
+6. Commit changes.
+7. Tunggu GitHub Pages deploy, lalu Ctrl+F5.
+
+CATATAN LOGO:
+- Logo sudah ditanam langsung (embedded) di setiap halaman HTML agar tidak bergantung pada path file.
+- File fallback assets/lci-logo.png juga tetap disertakan.
+- Jadi logo tetap muncul walaupun ada masalah path aset.
+
+STRUKTUR ROOT YANG BENAR:
+index.html
+style.css
+script.js
+assets/
+andalalin.html
+assessment.html
+...dst
+
+Jangan upload ZIP-nya langsung ke repository; extract terlebih dahulu.
